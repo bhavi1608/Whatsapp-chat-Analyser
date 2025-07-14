@@ -60,7 +60,7 @@ def create_wordcloud(selected_user,df):
 
 def most_common_words(selected_user, df):
 
-    f = open(r"C:\Users\bhavy\OneDrive\Documents\Whatsapp chat Analyser\stop_hinglish.txt",'r')
+    f = open(r"stop_hinglish.txt",'r')
     stop_words = f.read()
 
 

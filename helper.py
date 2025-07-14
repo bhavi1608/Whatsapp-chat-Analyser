@@ -35,7 +35,7 @@ def create_wordcloud(selected_user,df):
     if selected_user != 'Overall':
         df= df[df['user']== selected_user]
 
-    f = open(r"C:\Users\bhavy\OneDrive\Documents\Whatsapp chat Analyser\stop_hinglish.txt",'r')
+    f = open("stop_hinglish.txt",'r')
     stop_words = f.read()
 
     if selected_user != 'Overall':
